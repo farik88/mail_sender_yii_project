@@ -1,0 +1,97 @@
+/* SEND MAIL */
+/* Start button */
+@media (max-width: 767px){
+    #start-sending-btn{
+        margin: 15px auto 0 auto;
+        float: none!important;
+        display: block;
+    }
+}
+/* Console */
+#mail-send-console-wrap{
+    display: none;
+}
+#mail-send-console{
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.14);
+}
+#mail-send-console table{
+    width: 100%;
+    background: #f1f1f1;
+}
+#mail-send-console table tbody{
+    width: 100%;
+    max-height: 263px;
+    overflow-y: auto;
+}
+#mail-send-console table tbody::-webkit-scrollbar{ 
+    display: none; 
+}
+#mail-send-console table thead,
+#mail-send-console table tbody,
+#mail-send-console table tr,
+#mail-send-console table td,
+#mail-send-console table th{
+    display: block;
+}
+#mail-send-console table tbody td,
+#mail-send-console table thead tr th{
+    float: left;
+}
+#mail-send-console table tr th{
+    background: #31708f;
+    color: #FFF;
+}
+#mail-send-console table tr td{
+    padding: 1px 7px;
+}
+#mail-send-console table tr th{
+    padding: 6px 7px;
+}
+#mail-send-console table td,
+#mail-send-console table th{
+    border-bottom: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+}
+#mail-send-console table tr:last-child th,
+#mail-send-console table tr:last-child td{
+    border-bottom: 0px;
+}
+#mail-send-console table tr td:last-child,
+#mail-send-console table tr th:last-child{
+    border-right: 0px;
+}
+#mail-send-console table span.result-success{
+    color: green;
+}
+#mail-send-console table span.result-fail{
+    color: red;
+}
+/* Progress bar */
+#send-mail-progress-zone {
+    display: none;
+}
+#send-mail-progress-zone .progress-bar{
+    background-color: #5cb85c;
+}
+#send-mail-progress-zone .progress{
+    margin-bottom: 0;
+}
+/* RELEASE UPDATE */
+/* Test email */
+.test-mail #test-mail-success-message{
+    display: none;
+}
+.test-mail #test-mail-error-message{
+    display: none;
+}
+.test-mail #preloader-spiner{
+    display: none;
+    font-size: 16px;
+    vertical-align: middle;
+    margin: 0 0 0 15px;
+}
